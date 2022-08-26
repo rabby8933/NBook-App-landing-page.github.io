@@ -220,6 +220,7 @@ header .btn-signup:hover {
 }
 .video-call-section img {
   float: right;
+  width: 100%;
 }
 
 /********************** 
@@ -343,10 +344,6 @@ header .btn-signup:hover {
   padding: 80px 0;
   background: #fff;
   color: #000;
-}
-.video-call-section img {
-  float: right;
-  width: 100%;
 }
 .booking .content {
   padding-right: 10px;
@@ -920,14 +917,14 @@ footer p {
   .banner-section p {font-size: 20px;margin: 10px 0;padding: 0;}
   .banner-section ul li img {padding: 10px 0;}
 
-  .features .features-items {padding: 50px 10px 14px;}
+  .features .features-items {padding: 50px 20px 14px;}
   .features .features-items p {padding: 40px 0;}
   .features .features-items .msg {padding: 30px 0 20px;}
 
   .video-call-section {padding-top: 80px;margin-top: 0;}
   .video-call-section h2 {font-size: 34px;}
   .video-call-section p {font-size: 16px;padding: 10px 0;}
-  .video-call-section img {padding: 40px 0;}
+  .video-call-section img {float: none;width: 90%;padding: 40px 0;display: block;margin: 0 auto;}
 
   .app-features .col-lg-12 p {padding: 15px 0;font-size: 16px;}
   .app-features {padding: 60px 0 40px;}
