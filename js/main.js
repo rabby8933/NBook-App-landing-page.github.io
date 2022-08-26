@@ -26,3 +26,5 @@ jQuery(document).ready(function ($) {
     time: 1000,
   });
 });
+// Wow js
+new WOW().init();
